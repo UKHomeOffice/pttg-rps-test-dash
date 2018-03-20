@@ -1,0 +1,25 @@
+{
+  "name": "eue-test-report-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.ipttools.info/eue-api/eue-test-report-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.207.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-s3-router": "^0.1.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-watch": "^5.0.0",
+    "s3": "^4.4.0"
+  }
+}
